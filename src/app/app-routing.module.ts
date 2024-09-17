@@ -14,30 +14,32 @@ import { PricingComponent } from './pricing/pricing.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { RegisterComponent } from './register/register.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
+import { InvisalignComponent } from './invisalign/invisalign.component';
 import { ServicesComponent } from './services/services.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { VaccineComponent } from './vaccine/vaccine.component';
 
 const routes: Routes = [
-  {path:'', redirectTo:"home", pathMatch:"full"},
-  {path:'home' , component:HomeComponent},
-  {path:'about' , component:AboutComponent},
-  {path:'services' , component:ServicesComponent},
-  {path:'service-details' , component:ServiceDetailsComponent},
-  {path:'dentict' , component:DentictsComponent},
-  {path:'doctor-details' , component:DoctorDetailsComponent},
-  {path:'booking' , component:BookingComponent},
-  {path:'pricing' , component:PricingComponent},
-  {path:'testimonials' , component:TestimonialsComponent},
-  {path:'vaccine' , component:VaccineComponent},
-  {path:'privacy' , component:PrivacyComponent},
-  {path:'login' , component:LoginComponent},
-  {path:'register' , component:RegisterComponent},
-  {path:'blog' , component:BlogComponent},
-  {path:'blog-details' , component:BlogDetailsComponent},
-  {path:'contact' , component:ContactComponent},
-  {path:'**' , component:NotfoundComponent},
-  {path:'notfound' , component:NotfoundComponent}
+  { path: '', redirectTo: "home", pathMatch: "full" },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'services', component: ServicesComponent },
+  { path: 'service-details', component: ServiceDetailsComponent },
+  { path: 'invisalign', component: InvisalignComponent },
+  { path: 'dentict', component: DentictsComponent },
+  { path: 'doctor-details', component: DoctorDetailsComponent },
+  { path: 'booking', component: BookingComponent },
+  { path: 'pricing', component: PricingComponent },
+  { path: 'testimonials', component: TestimonialsComponent },
+  { path: 'vaccine', component: VaccineComponent },
+  { path: 'privacy', component: PrivacyComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog-details', component: BlogDetailsComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: '**', component: NotfoundComponent },
+  { path: 'notfound', component: NotfoundComponent }
 ];
 
 @NgModule({

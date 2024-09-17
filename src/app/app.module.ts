@@ -23,6 +23,7 @@ import { BlogComponent } from './blog/blog.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
+import { InvisalignComponent } from './invisalign/invisalign.component';
 import { CallUsComponent } from './Components/call-us/call-us.component';
 import { AboutPartComponent } from './Components/about-part/about-part.component';
 import { FooterComponent } from './footer/footer.component';
@@ -56,6 +57,7 @@ import { FormsModule } from '@angular/forms';
     BlogDetailsComponent,
     ContactComponent,
     ServiceDetailsComponent,
+    InvisalignComponent,
     CallUsComponent,
     AboutPartComponent,
     FooterComponent,
@@ -73,7 +75,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule
   ],
   providers: [
-    
+
   ],
   bootstrap: [AppComponent]
 })
